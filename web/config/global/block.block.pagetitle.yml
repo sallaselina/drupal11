@@ -1,0 +1,20 @@
+uuid: ecfe3cea-0ae9-4546-9089-c589dc09293a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - revolt
+_core:
+  default_config_hash: mSV4ZYeFAqg1jUf8HdNYfYsIN-hpG1hCJxCjqPOgISY
+id: pagetitle
+theme: revolt
+region: content
+weight: -3
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

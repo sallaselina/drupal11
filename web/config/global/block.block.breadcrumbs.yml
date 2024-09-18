@@ -1,0 +1,22 @@
+uuid: 7e5f0f8e-1e06-47f6-883d-ed11f5eb9e5a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - revolt
+_core:
+  default_config_hash: Bl7P-vojr-Zh2WHOqfOWAYEDaXBaNmhQTc4MuZJGO3k
+id: breadcrumbs
+theme: revolt
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

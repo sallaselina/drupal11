@@ -1,0 +1,25 @@
+uuid: 333b7c3a-e325-41f0-9653-dcdd7f8d2a7c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a1a6a482-e19a-4d20-89df-1594d7ef5676'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: olivero_drupalisfun
+theme: olivero
+region: footer_top
+weight: 0
+provider: null
+plugin: 'block_content:a1a6a482-e19a-4d20-89df-1594d7ef5676'
+settings:
+  id: 'block_content:a1a6a482-e19a-4d20-89df-1594d7ef5676'
+  label: 'Drupal is fun'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

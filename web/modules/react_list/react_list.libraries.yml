@@ -1,0 +1,4 @@
+react_list:
+  version: VERSION
+  js:
+    js/list/dist/main.min.js: {}

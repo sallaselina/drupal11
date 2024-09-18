@@ -1,0 +1,20 @@
+uuid: 81df5a4d-161c-4de2-9087-f9457fe3c34c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - react_hello
+_core:
+  default_config_hash: bxfUm8OiHyh66yCgvAPPb1uVzcEDmaptB9Wr4_iwayY
+id: react_hello_primary_admin_actions
+theme: react_hello
+region: content
+weight: -13
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,18 @@
+uuid: ffec066a-94a0-4917-ad8b-b06a563ecd49
+langcode: en
+status: false
+dependencies:
+  theme:
+    - mahi
+id: mahi_pagetitle
+theme: mahi
+region: header_top
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -883,4 +883,8 @@ $databases['default']['default'] = array (
   'namespace' => 'Drupal\\mysql\\Driver\\Database\\mysql',
   'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/',
 );
-$settings['config_sync_directory'] = 'sites/default/files/config_n2ZkFWhghwOfePElhZFWC5KiA2tT95jFlW-OhAEpQv-3aM7L-ZSNYMyz7UUrU9GyP7j95h9L_Q/sync';
+/* $settings['config_sync_directory'] = 'sites/default/files/config_n2ZkFWhghwOfePElhZFWC5KiA2tT95jFlW-OhAEpQv-3aM7L-ZSNYMyz7UUrU9GyP7j95h9L_Q/sync'; */
+
+$settings['config_sync_directory'] = './config/global';
+
+$settings['config_exclude_modules'] = ['devel', 'webprofiler'];

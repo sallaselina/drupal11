@@ -1,0 +1,28 @@
+uuid: d9cedd3f-d2ac-4461-b5fc-889b27569132
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+    - system
+  theme:
+    - revolt
+_core:
+  default_config_hash: 0BSEvtZ5STWUK_VrD3QylahWPlWhhDhLZfgsP4jzDAc
+id: searchform
+theme: revolt
+region: sidebar_left
+weight: 0
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

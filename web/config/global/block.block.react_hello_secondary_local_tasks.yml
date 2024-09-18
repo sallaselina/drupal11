@@ -1,0 +1,22 @@
+uuid: 52ed0874-6e3a-40b2-b13d-b1d8fba8e27d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - react_hello
+_core:
+  default_config_hash: 4WmbqV_BiKsuJxbaTjH1FrfTA3__jmXBBEjfFSOdk4E
+id: react_hello_secondary_local_tasks
+theme: react_hello
+region: content
+weight: -11
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: b9a07ea6-5923-46a0-82e9-e97944b61f6f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - revolt
+_core:
+  default_config_hash: vAhtMF4zqATNFVvbuaX6dQAd3Ci-05KAU1cmfkGOQCU
+id: tabs
+theme: revolt
+region: content
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

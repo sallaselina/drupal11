@@ -1,0 +1,22 @@
+uuid: f49d3977-8099-4a15-864b-d5edaa6f88fd
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - rover
+_core:
+  default_config_hash: h6p7V-MXuYPXStTL_rRTHdTNR6mSXy08PgmxBwUYHiA
+id: rover_breadcrumbs
+theme: rover
+region: breadcrumb
+weight: -7
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,23 @@
+uuid: 4f73260d-3e92-4a4e-9e68-44c442aa1936
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mahi
+id: mahi_sitebranding
+theme: mahi
+region: header_top
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

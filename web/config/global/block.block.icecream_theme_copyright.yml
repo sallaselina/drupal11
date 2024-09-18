@@ -1,0 +1,25 @@
+uuid: 3f2c6049-d01a-4468-a0e2-f5d5d9b121fd
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:6aaa81ed-1f29-4cf8-8f7b-2970217bb90f'
+  module:
+    - block_content
+  theme:
+    - icecream_theme
+id: icecream_theme_copyright
+theme: icecream_theme
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:6aaa81ed-1f29-4cf8-8f7b-2970217bb90f'
+settings:
+  id: 'block_content:6aaa81ed-1f29-4cf8-8f7b-2970217bb90f'
+  label: Copyright
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

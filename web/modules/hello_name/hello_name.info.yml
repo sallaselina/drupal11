@@ -1,0 +1,4 @@
+name: hello name
+description: simple module to print name
+type: module
+core_version_requirement: ^10 || ^11

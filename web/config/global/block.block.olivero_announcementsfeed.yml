@@ -1,0 +1,20 @@
+uuid: 268192c1-8c53-4f18-b0ae-d298709a64df
+langcode: en
+status: false
+dependencies:
+  module:
+    - announcements_feed
+  theme:
+    - olivero
+id: olivero_announcementsfeed
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: announce_block
+settings:
+  id: announce_block
+  label: 'Announcements Feed'
+  label_display: visible
+  provider: announcements_feed
+visibility: {  }

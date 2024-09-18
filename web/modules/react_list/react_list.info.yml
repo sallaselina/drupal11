@@ -1,0 +1,8 @@
+name: React List Module
+description: a module to fetch and display articles
+type: module
+core_version_requirement: ^10 || ^11
+dependencies:
+  - drupal:node
+libraries:
+  - react_list/react_list

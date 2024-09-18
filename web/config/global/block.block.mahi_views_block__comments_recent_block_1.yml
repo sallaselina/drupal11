@@ -1,0 +1,24 @@
+uuid: 3101e43b-cea4-4956-9d02-c1aeb49db4b8
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.comments_recent
+  module:
+    - views
+  theme:
+    - mahi
+id: mahi_views_block__comments_recent_block_1
+theme: mahi
+region: content_bottom
+weight: 0
+provider: null
+plugin: 'views_block:comments_recent-block_1'
+settings:
+  id: 'views_block:comments_recent-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

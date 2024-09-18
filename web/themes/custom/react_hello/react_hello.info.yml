@@ -1,0 +1,8 @@
+name: React Drupal Together
+type: theme
+description: "a theme that loads a very simple react js app"
+base theme: olivero
+core_version_requirement: ^10 || ^11
+
+libraries:
+  - react_hello/react_app

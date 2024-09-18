@@ -1,0 +1,22 @@
+uuid: e7e14ca1-b420-4f6a-a23c-78233c8d4cd5
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - revolt
+_core:
+  default_config_hash: v5rDoFHI7FxA0O-MhqYe5aGabEzDlQ8ZyZTt_D3joiM
+id: mainpagecontent
+theme: revolt
+region: content
+weight: -2
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

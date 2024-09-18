@@ -1,0 +1,152 @@
+/* #header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+  h1 {
+  font-weight: bold;
+  color: darkmagenta;
+}
+
+#content {
+  padding-bottom: 50px;
+}
+
+#footer {
+  padding: 60px;
+  text-align: center;
+  background: grey;
+  color: white;
+  font-size: 30px;
+} */
+
+body {
+  margin: 0;
+  font-family: "SUSE", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background: rgb(173, 255, 211);
+  background: linear-gradient(
+    90deg,
+    rgba(173, 255, 211, 1) 0%,
+    rgba(255, 155, 184, 1) 35%,
+    rgba(126, 233, 255, 1) 100%
+  );
+}
+
+a,
+a:active,
+a:visited {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  color: lightcoral;
+  text-decoration: underline;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+header {
+  background: rgb(173, 255, 211);
+  background: linear-gradient(
+    90deg,
+    rgba(173, 255, 211, 1) 0%,
+    rgba(255, 155, 184, 1) 35%,
+    rgba(126, 233, 255, 1) 100%
+  );
+}
+
+.content {
+  position: relative;
+  width: 70%;
+  margin: auto;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+article {
+  background-color: aliceblue;
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 20px;
+}
+.footer {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  background-color: mintcream;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  bottom: 0;
+}
+#block-icecream-theme-branding a {
+  font-size: 20px;
+  color: #fff;
+}
+.heading {
+  color: #fff;
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#block-icecream-theme-site-branding {
+  padding: 2rem;
+  color: white;
+  font-size: large;
+}
+#block-icecream-theme-main-menu ul {
+  z-index: 5;
+  width: 80%;
+  display: inline-block;
+}
+.sidebar {
+  background-color: lightcyan;
+  padding: 2rem;
+  margin: 2rem;
+  width: 200px;
+  border-radius: 20px;
+}
+#block-icecream-theme-main-menu ul li {
+  padding: 10px;
+  width: 10%;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  font-size: 20px;
+  text-decoration: none;
+  color: #000;
+  background-color: #e6dada;
+  border: 2px solid #e6dada;
+  transition: 500ms;
+}
+
+#block-icecream-theme-main-menu ul li:hover {
+  color: #e6dada;
+  background-color: #13171c;
+}
+#block-icecream-theme-footer ul li {
+  display: inline-block;
+}
+
+#block-icecream-theme-footer ul li a {
+  display: inline-block;
+  color: #efefef;
+}
+#block-icecream-theme-mainnavigation-2 {
+  display: inline;
+  font-weight: bold;
+  font-size: large;
+}
+#block-icecream-theme-useraccountmenu {
+  display: inline-block;
+  margin: 2rem;
+  padding: 2rem;
+}

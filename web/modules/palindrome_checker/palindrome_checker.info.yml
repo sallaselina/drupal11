@@ -1,0 +1,4 @@
+name: palindrome checker
+description: a simple module to check if given input is a palindrome
+type: module
+core_version_requirement: ^10 || ^11

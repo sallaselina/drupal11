@@ -1,0 +1,24 @@
+uuid: 766d69b2-984d-42d0-a0a9-492a40ff49fa
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.comments_recent
+  module:
+    - views
+  theme:
+    - icecream_theme
+id: icecream_theme_views_block__comments_recent_block_1
+theme: icecream_theme
+region: header
+weight: 0
+provider: null
+plugin: 'views_block:comments_recent-block_1'
+settings:
+  id: 'views_block:comments_recent-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

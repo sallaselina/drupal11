@@ -1,0 +1,25 @@
+uuid: 474aad0b-a16b-4efd-a095-bf13e094dab6
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - react_hello
+_core:
+  default_config_hash: Ki5kUxL9gNONfmNzBVYav365zNdgYNhmOkIPf37rjeE
+id: react_hello_site_branding
+theme: react_hello
+region: sidebar_first
+weight: -11
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

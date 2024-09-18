@@ -1,0 +1,22 @@
+uuid: 440cdda1-7ad6-46e6-a45a-90321e2c38ce
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - rover
+_core:
+  default_config_hash: aHzgNPlOLx6f967q1lbnIx_yHv6L9BYJp6Lx7keA5uk
+id: rover_content
+theme: rover
+region: content
+weight: -5
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

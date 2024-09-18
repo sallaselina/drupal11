@@ -1,0 +1,24 @@
+uuid: 962279da-7ba9-4b52-95ea-7133a91f4b77
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.comments_recent
+  module:
+    - views
+  theme:
+    - react_hello
+id: react_hello_views_block__comments_recent_block_1
+theme: react_hello
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:comments_recent-block_1'
+settings:
+  id: 'views_block:comments_recent-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

@@ -1,0 +1,23 @@
+uuid: 88c068c8-3c7f-4c2a-b5e6-c4e3fd244777
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - react_hello
+_core:
+  default_config_hash: XFLzKtO_HTDRL1UYMS83JF3BZlklmIinMCBJaurXdEY
+id: react_hello_syndicate
+theme: react_hello
+region: sidebar_first
+weight: -11
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'RSS feed'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }

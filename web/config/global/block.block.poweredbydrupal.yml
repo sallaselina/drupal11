@@ -1,0 +1,22 @@
+uuid: 16bd05f3-20c1-47db-af04-590213b88e71
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - revolt
+_core:
+  default_config_hash: SVaGXan2NkRlb-uTy4t837S8nKsvbZR9eiWyqf1w0fs
+id: poweredbydrupal
+theme: revolt
+region: footer
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }
