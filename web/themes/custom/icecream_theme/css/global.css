@@ -240,7 +240,8 @@ form label {
   font-weight: 600;
 }
 
-#edit-name {
+#edit-name,
+#edit-palindrome {
   margin: 0.5rem;
   padding: 1rem;
   width: 300px;
@@ -294,10 +295,10 @@ form label {
 }
 
 #block-icecream-theme-content {
-  font-size: 3rem;
+  font-size: 1rem;
   padding: 1rem;
   margin: 1rem;
-  width: 500px;
+  width: 800px;
   border-radius: 10px;
   text-align: center;
 }

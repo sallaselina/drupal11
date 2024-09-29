@@ -13,7 +13,7 @@ class PalindromeController extends ControllerBase {
     public function check(Request $request){
         $url = Url::fromRoute("palindrome_checker.form");
         $link = Link::fromTextAndUrl($this->t("Back to the palindrome checker"), $url)->toString();
-        $input = $request->query->get("palindrome", "");
+        $input = $request->query->get("palindrome");
         if ($input) {
             if (strrev($input) === $input) {
                 $result = $input . " is a palindrome.";
@@ -22,13 +22,21 @@ class PalindromeController extends ControllerBase {
         }
     }
     return [
-        '#markup' => $this->t("Your input @result", ["@result" => $result]),];
-       //\Drupal::messenger()->addMessage($this->t('@result', ['@result' =>$result]));
+        '#markup' => $this->t("@result @link", ["@result" => $result, "@link" => $link])];
+ /*       \Drupal::messenger()->addMessage($this->t('@palindrome', ['@palindrome' =>$palindrome])); */
 }
 
-    public function result ($result) {
+/*    public function result (Request $request, $palindrome) {
+    $input = $request->query->get("palindrome", "");
+        if ($input) {
+            if (strrev($input) === $input) {
+                $palindrome = $input . " is a palindrome.";
+        } else {
+          $palindrome =  $input . " is not a palindrome.";
+        }
+    }
         return [
-        '#markup' => $this->t("Here is:  @result", ["@result" => $result]),
+        '#markup' => $this->t("@palindrome", ["@palindrome" => $palindrome]),
     ];
-}
+} */
 }
