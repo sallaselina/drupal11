@@ -14,7 +14,7 @@ class PalindromeForm extends FormBase {
 
   public function buildForm(array $form, FormStateInterface $form_state)
   {
-    $form['palindrome'] = [
+    $form['input'] = [
       '#type' => 'textfield',
       '#title' => $this->t('Enter word here'),
       '#required' => TRUE,
@@ -29,7 +29,7 @@ class PalindromeForm extends FormBase {
 
   public function submitForm(array &$form, FormStateInterface $form_state)
   {
-    $palindrome = $form_state->getValue('palindrome');
-    $form_state->setRedirect("palindrome_checker.page", ['palindrome' => $palindrome]);
+    $input = $form_state->getValue('input');
+    $form_state->setRedirect("palindrome_checker.show", ['input' => $input]);
   }
 }
