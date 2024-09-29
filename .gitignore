@@ -39,4 +39,7 @@ composer.lock
 web/themes/custom/react_hello/node_modules/
 web/modules/react_counter/js/node_modules/
 web/modules/react_list/js/list/node_modules/
+web/modules/react_counter
+web/modules/react_list
+web/themes/custom/react_hello
 */node_modules/
