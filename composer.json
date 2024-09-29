@@ -22,6 +22,7 @@
         "drupal/devel": "^5.3",
         "drupal/mahi": "^1.1",
         "drupal/remove_meta_info": "^1.0",
+        "drupal/restui": "^1.22",
         "drupal/revolt": "^1.1",
         "drupal/rover": "^1.0",
         "drupal/vani": "^11.0",
