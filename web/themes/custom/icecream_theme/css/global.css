@@ -37,7 +37,6 @@ header {
     rgba(126, 233, 255, 1) 100%
   );
   width: 100%;
-  height: 200px;
   color: #ffff;
 }
 
@@ -245,7 +244,8 @@ form label {
 }
 
 #edit-name,
-#edit-input {
+#edit-input,
+#edit-pass {
   margin: 0.5rem;
   padding: 1rem;
   width: 300px;

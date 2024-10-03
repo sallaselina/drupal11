@@ -30,6 +30,6 @@ class PalindromeForm extends FormBase {
   public function submitForm(array &$form, FormStateInterface $form_state)
   {
     $input = $form_state->getValue('input');
-    $form_state->setRedirect("palindrome_checker.show", ['input' => $input]);
+    $form_state->setRedirect("palindrome_checker.page", ['input' => $input]);
   }
 }

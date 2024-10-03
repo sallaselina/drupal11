@@ -1,0 +1,12 @@
+<?php
+
+use Drupal\Core\Controller\ControllerBase;
+use Drupal\Core\Routing\RouteMatchInterface;
+
+function palindrome_checker_help($route_name, RouteMatchInterface $route_match) {
+    switch ($route_name) {
+        case 'help.page.palindrome_checker':
+        return '<p>' . t('  you can find information whether the input you give is a palindrome.') . '</p>';
+        default;
+    }
+}
